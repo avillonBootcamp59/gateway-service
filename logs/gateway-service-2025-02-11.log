@@ -1,0 +1,142 @@
+2025-02-11 14:29:21 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-02-11 14:29:21 [main] INFO  p.msgateway.MsgatewayApplication - Starting MsgatewayApplication using Java 11.0.25 on NTTD-C6JKR54 with PID 25296 (C:\Proyecto-1\gateway-service\target\classes started by avillonc in C:\Proyecto-1\gateway-service)
+2025-02-11 14:29:21 [main] INFO  p.msgateway.MsgatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 14:29:22 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1cb76f06-bd09-34c1-af22-fc015987b887
+2025-02-11 14:29:23 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-02-11 14:29:23 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-02-11 14:29:23 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-02-11 14:29:23 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-02-11 14:29:23 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-02-11 14:29:23 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-02-11 14:29:23 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-02-11 14:29:23 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-02-11 14:29:23 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-02-11 14:29:23 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-02-11 14:29:23 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-11 14:29:23 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-11 14:29:23 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-02-11 14:29:23 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-11 14:29:24 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-02-11 14:29:25 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2025-02-11 14:29:26 [main] INFO  p.msgateway.MsgatewayApplication - Started MsgatewayApplication in 5.106 seconds (JVM running for 5.602)
+2025-02-11 14:42:16 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-02-11 14:42:16 [main] INFO  p.msgateway.MsgatewayApplication - Starting MsgatewayApplication using Java 11.0.25 on NTTD-C6JKR54 with PID 27620 (C:\Proyecto-1\gateway-service\target\classes started by avillonc in C:\Proyecto-1\gateway-service)
+2025-02-11 14:42:16 [main] INFO  p.msgateway.MsgatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 14:42:17 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3c333a60-562f-3855-b9d1-4c6c63e5eb43
+2025-02-11 14:42:19 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-02-11 14:42:19 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-02-11 14:42:19 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-02-11 14:42:19 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-02-11 14:42:19 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-02-11 14:42:19 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-02-11 14:42:19 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-02-11 14:42:19 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-02-11 14:42:19 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-02-11 14:42:19 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-02-11 14:42:19 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-11 14:42:19 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-11 14:42:19 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-02-11 14:42:19 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-11 14:42:19 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-02-11 14:42:20 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2025-02-11 14:42:21 [main] INFO  p.msgateway.MsgatewayApplication - Started MsgatewayApplication in 5.226 seconds (JVM running for 5.74)
+2025-02-11 15:17:14 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-02-11 15:17:14 [main] INFO  p.msgateway.MsgatewayApplication - Starting MsgatewayApplication using Java 11.0.25 on NTTD-C6JKR54 with PID 29464 (C:\Proyecto-1\gateway-service\target\classes started by avillonc in C:\Proyecto-1\gateway-service)
+2025-02-11 15:17:14 [main] INFO  p.msgateway.MsgatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 15:17:15 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3c333a60-562f-3855-b9d1-4c6c63e5eb43
+2025-02-11 15:17:17 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-02-11 15:17:17 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-02-11 15:17:17 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-02-11 15:17:17 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-02-11 15:17:17 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-02-11 15:17:17 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-02-11 15:17:17 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-02-11 15:17:17 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-02-11 15:17:17 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-02-11 15:17:17 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-02-11 15:17:17 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-11 15:17:17 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-11 15:17:17 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-02-11 15:17:17 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-11 15:17:18 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-02-11 15:17:18 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2025-02-11 15:17:19 [main] INFO  p.msgateway.MsgatewayApplication - Started MsgatewayApplication in 5.415 seconds (JVM running for 5.775)
+2025-02-11 16:17:32 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-02-11 16:17:32 [main] INFO  p.msgateway.MsgatewayApplication - Starting MsgatewayApplication using Java 11.0.25 on NTTD-C6JKR54 with PID 13892 (C:\Proyecto-1\gateway-service\target\classes started by avillonc in C:\Proyecto-1\gateway-service)
+2025-02-11 16:17:32 [main] INFO  p.msgateway.MsgatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 16:17:33 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3c333a60-562f-3855-b9d1-4c6c63e5eb43
+2025-02-11 16:17:34 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-02-11 16:17:34 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-02-11 16:17:34 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-02-11 16:17:34 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-02-11 16:17:34 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-02-11 16:17:34 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-02-11 16:17:34 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-02-11 16:17:34 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-02-11 16:17:34 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-02-11 16:17:34 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-02-11 16:17:34 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-11 16:17:34 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-11 16:17:34 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-02-11 16:17:34 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-11 16:17:35 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-02-11 16:17:35 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2025-02-11 16:17:37 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-02-11 16:17:37 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-02-11 16:24:05 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-02-11 16:24:05 [main] INFO  p.msgateway.MsgatewayApplication - Starting MsgatewayApplication using Java 11.0.25 on NTTD-C6JKR54 with PID 3384 (C:\Proyecto-1\gateway-service\target\classes started by avillonc in C:\Proyecto-1\gateway-service)
+2025-02-11 16:24:05 [main] INFO  p.msgateway.MsgatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 16:24:06 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3c333a60-562f-3855-b9d1-4c6c63e5eb43
+2025-02-11 16:24:09 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-02-11 16:24:09 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-02-11 16:24:09 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-02-11 16:24:09 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-02-11 16:24:09 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-02-11 16:24:09 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-02-11 16:24:09 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-02-11 16:24:09 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-02-11 16:24:09 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-02-11 16:24:09 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-02-11 16:24:09 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-11 16:24:09 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-11 16:24:09 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-02-11 16:24:09 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-11 16:24:11 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-02-11 16:24:11 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2025-02-11 16:24:13 [main] INFO  p.msgateway.MsgatewayApplication - Started MsgatewayApplication in 9.537 seconds (JVM running for 10.361)
+2025-02-11 18:57:04 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-02-11 18:57:04 [main] INFO  p.msgateway.MsgatewayApplication - Starting MsgatewayApplication using Java 11.0.25 on NTTD-C6JKR54 with PID 7036 (C:\Proyecto-1\gateway-service\target\classes started by avillonc in C:\Proyecto-1\gateway-service)
+2025-02-11 18:57:04 [main] INFO  p.msgateway.MsgatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 18:57:05 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3c333a60-562f-3855-b9d1-4c6c63e5eb43
+2025-02-11 18:57:06 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2025-02-11 18:57:06 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2025-02-11 18:57:06 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2025-02-11 18:57:06 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2025-02-11 18:57:06 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2025-02-11 18:57:06 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2025-02-11 18:57:06 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2025-02-11 18:57:06 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2025-02-11 18:57:06 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2025-02-11 18:57:06 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2025-02-11 18:57:06 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-11 18:57:06 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-11 18:57:06 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2025-02-11 18:57:06 [main] INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-11 18:57:07 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-02-11 18:57:07 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2025-02-11 18:57:08 [main] INFO  p.msgateway.MsgatewayApplication - Started MsgatewayApplication in 4.435 seconds (JVM running for 4.782)

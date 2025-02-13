@@ -1,11 +1,35 @@
 server:
   port: 8080
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 spring:
+  application:
+    name: gateway-service
+
   cloud:
     gateway:
       routes:
         - id: ms-customer
           uri: http://localhost:8081
           predicates:
-            - Path=/customers/**
+            - Path=/v1.0/customers/**
+
+        - id: ms-accounts
+          uri: http://localhost:8082
+          predicates:
+            - Path=/v1.0/accounts/**
+
+        - id: ms-credits
+          uri: http://localhost:8083
+          predicates:
+            - Path=/v1.0/credits/**
+
+        - id: ms-transactions
+          uri: http://localhost:8084
+          predicates:
+            - Path=/v1.0/transactions/**
