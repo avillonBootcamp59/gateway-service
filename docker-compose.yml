@@ -1,60 +1,110 @@
-version: '3.8'
-
 services:
-  gateway-service:
+  eureka-server:
+    image: eurekaserver:latest
+    container_name: ms-eureka-server
+    build:
+      context: ../ms-eureka-server
+      dockerfile: Dockerfile
+    ports:
+      - "8761:8761"
+    networks:
+      - bank-network
+
+  config-server:
+    image: configserver:latest
+    container_name: config-server
+    build:
+      context: ../config-server
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    networks:
+      - bank-network
+
+  api-gateway:
+    image: apigateway:latest
+    container_name: api-gateway
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: gateway-service
-    image: gateway-service:1.0.0
     ports:
       - "8080:8080"
+    depends_on:
+      - eureka-server
+      - config-server
     networks:
-      - bank
-  
+      - bank-network
+
   ms-authentication:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: ms-authentication:latest
     container_name: ms-authentication
-    image: gateway-service:1.0.0
+    build:
+      context: ../ms-authentication
+      dockerfile: Dockerfile
     ports:
       - "8088:8088"
-    networks:
-      - bank
-      
-  zookeeper:
-    image: confluentinc/cp-zookeeper:7.0.1
-    container_name: zookeeper
-    ports:
-      - "2181:2181"
-    environment:
-      ZOOKEEPER_CLIENT_PORT: 2181
-
-  kafka:
-    image: confluentinc/cp-kafka:7.0.1
-    container_name: kafka
-    ports:
-      - "9092:9092"
-    environment:
-      KAFKA_BROKER_ID: 1
-      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
-      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
     depends_on:
-      - zookeeper
+      - eureka-server
+      - config-server
+    networks:
+      - bank-network
 
-  redis:
-    image: redis:6.2-alpine
-    container_name: redis
+  ms-customer:
+    image: ms-customer:latest
+    container_name: ms-customer
+    build:
+      context: ../ms-customer
+      dockerfile: Dockerfile
     ports:
-      - "6379:6379"
-    volumes:
-      - redis_data:/data
+      - "8081:8081"
+    depends_on:
+      - eureka-server
+      - config-server
+    networks:
+      - bank-network
 
-volumes:
-  redis_data:
-  
+  ms-account:
+    image: ms-account:latest
+    container_name: ms-account
+    build:
+      context: ../ms-accounts
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082"
+    depends_on:
+      - eureka-server
+      - config-server
+    networks:
+      - bank-network
+
+  ms-credit:
+    image: ms-credit:latest
+    container_name: ms-credit
+    build:
+      context: ../ms-credits
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8083"
+    depends_on:
+      - eureka-server
+      - config-server
+    networks:
+      - bank-network
+
+  ms-transactions:
+    image: ms-transactions:latest
+    container_name: ms-transactions
+    build:
+      context: ../ms-transactions
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8083"
+    depends_on:
+      - eureka-server
+      - config-server
+    networks:
+      - bank-network
+
 networks:
-  bank:
+  bank-network:
     driver: bridge

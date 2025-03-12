@@ -5,16 +5,14 @@ spring:
     active: local
   cloud:
     config:
+      enabled: false
       uri: http://localhost:8888
-      username: root
-      password: s3cr3t
+      username: avillon
+      password: 4v1ll0nJd
       fail-fast: true
       retry:
         max-attempts: 5
         initial-interval: 1000
-  main:
-    allow-bean-definition-overriding: true
-    web-application-type: reactive
 
 management:
   endpoints:
