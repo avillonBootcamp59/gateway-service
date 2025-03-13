@@ -33,8 +33,7 @@
 				<scope>import</scope>
 			</dependency>
 		</dependencies>
-	</dependencyManagement>
-
+	</dependencyManagement> 
 	<dependencies>
 		<!-- Spring Cloud Gateway -->
 		<dependency>
